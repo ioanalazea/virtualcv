@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/%7Bvirtualcv%7D/static/css/main.630df81b.css",
+    "main.js": "/%7Bvirtualcv%7D/static/js/main.447455d3.js",
+    "static/js/787.28cb0dcd.chunk.js": "/%7Bvirtualcv%7D/static/js/787.28cb0dcd.chunk.js",
+    "static/media/TrackforvirtualCV.mp3": "/%7Bvirtualcv%7D/static/media/TrackforvirtualCV.888ea1e1b0fe85fa3039.mp3",
+    "static/media/avatarvideoAi.mp4": "/%7Bvirtualcv%7D/static/media/avatarvideoAi.8cc7bd4b9f0017c9c698.mp4",
+    "static/media/cinem.jpg": "/%7Bvirtualcv%7D/static/media/cinem.53aafbcc9f7d122b1088.jpg",
+    "static/media/glad.jpg": "/%7Bvirtualcv%7D/static/media/glad.59599321b3757fb88de2.jpg",
+    "static/media/letter.jpg": "/%7Bvirtualcv%7D/static/media/letter.a5517d661081e55fd139.jpg",
+    "static/media/profilepicture.jpg": "/%7Bvirtualcv%7D/static/media/profilepicture.8ef220c6cd7386d7cc40.jpg",
+    "static/media/me_graduation.jpg": "/%7Bvirtualcv%7D/static/media/me_graduation.794fbd94cbe81fb5e418.jpg",
+    "static/media/Oliver-Regular.ttf": "/%7Bvirtualcv%7D/static/media/Oliver-Regular.01f638784569ede86f7c.ttf",
+    "static/media/accenturelogo.png": "/%7Bvirtualcv%7D/static/media/accenturelogo.6220f2888a6d949974e0.png",
+    "static/media/paint.png": "/%7Bvirtualcv%7D/static/media/paint.d22420eadc9f9a012860.png",
+    "static/media/background.JPG": "/%7Bvirtualcv%7D/static/media/background.48d16c9b20ccabd185c1.JPG",
+    "static/media/paint2.JPG": "/%7Bvirtualcv%7D/static/media/paint2.b3b2b31b52a4288a1780.JPG",
+    "index.html": "/%7Bvirtualcv%7D/index.html",
+    "main.630df81b.css.map": "/%7Bvirtualcv%7D/static/css/main.630df81b.css.map",
+    "main.447455d3.js.map": "/%7Bvirtualcv%7D/static/js/main.447455d3.js.map",
+    "787.28cb0dcd.chunk.js.map": "/%7Bvirtualcv%7D/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.630df81b.css",
+    "static/js/main.447455d3.js"
+  ]
+}
