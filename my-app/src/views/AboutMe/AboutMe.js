@@ -1,11 +1,10 @@
 //Import style:
-import { Divider, Typography } from "@mui/material";
+import { Divider, Tooltip, Typography } from "@mui/material";
 import "./AboutMe.css";
 
 //Import components:
 import Box from "@mui/material/Box";
-import Grid from "@mui/material/Box";
-
+import InfoOutlinedIcon from "@mui/icons-material/InfoOutlined";
 //Import icons:
 import video from "../../assets/avatarvideoAi.mp4";
 
@@ -34,7 +33,17 @@ function AboutMe() {
     <Box justifyContent={"center"} display={"flex"} flexDirection={"column"}>
       <Box className="Post">
         <div className="Header-post">
-          <b>Get to know me...</b></div>
+          <b>Get to know me...</b>
+          <div>
+            <Tooltip
+              title={
+                "This is an AI generated video using my profile picture, my voice recording and D-ID."
+              }
+            >
+              <InfoOutlinedIcon />
+            </Tooltip>
+          </div>
+        </div>
         <Box
           style={{
             border: "5px solid #c0c0c0",

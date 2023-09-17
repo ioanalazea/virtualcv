@@ -1,9 +1,9 @@
 .Box {
     background-color: #e0dfe4;
-    min-width: 50%;
+    /* min-width: 50%;
     min-height: 600px;
     max-width: 50%;
-    max-height: 50%;
+    max-height: 50%; */
     align-self: center;
     border: 2px solid grey;
     border-radius: 5px;

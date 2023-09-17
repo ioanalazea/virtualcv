@@ -190,7 +190,7 @@ function Work() {
           </div>
 
           <img
-            height="30px"
+            height="20px"
             style={{
               marginLeft: "20px",
               marginTop: "20px",
@@ -259,6 +259,70 @@ function Work() {
 
       <Box className="Work">
         <div className="Work-post">
+          <b>Volunteering experience</b>
+        </div>
+
+        <Divider></Divider>
+        <Typography
+          fontFamily={"Consolas"}
+          style={{
+            border: "5px solid #c0c0c0",
+            margin: "10px",
+            padding: "5px",
+            borderRadius: "5px",
+            padding: "10px",
+          }}
+        >
+          {" "}
+          <Typography
+            style={{
+              fontFamily: "Consolas",
+              fontSize: "large",
+              fontWeight: "700",
+              color: "#4e8f84",
+            }}
+          >
+            <u>Cinema Victoria (Timișoara) </u> <br />
+          </Typography>
+          I started working as a volunteer at a Timișoara independent film
+          theater in 2023. My duties included helping with everything that was
+          required, like scanning tickets, promoting the cinema, planning
+          various events, etc.
+          <br />
+          <Typography
+            style={{
+              fontFamily: "Consolas",
+              fontSize: "large",
+              fontWeight: "700",
+              color: "#4e8f84",
+            }}
+          >
+            <u>Summer Well Festival 2023 (Bucharest) </u> <br />
+          </Typography>
+          During the Summer Well music event in 2023, I volunteered. Since I was
+          on the "Moving" crew, I had to assist with all requirements.
+        </Typography>
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "flex-end",
+            marginRight: "10px",
+          }}
+        >
+          <IconButton>
+            <FavoriteTwoToneIcon />
+          </IconButton>
+          <IconButton>
+            <ModeCommentTwoToneIcon />
+          </IconButton>
+          <IconButton>
+            <MoreHorizTwoToneIcon />
+          </IconButton>
+        </div>
+      </Box>
+
+      <Box className="Work">
+        <div className="Work-post">
           <b>Personal projects</b>
         </div>
 
@@ -277,11 +341,16 @@ function Work() {
             {" "}
             <b>Bachelor project </b> <br />
             Platform for Parkinson's disease detection using audio. Developed a{" "}
-            <a href="https://github.com/ioanalazea/Audio-Data-Recording-for-Parkinson-s-Disease/blob/main/README.md">
+            <a
+              style={{ fontWeight: "700", color: "#4e8f84" }}
+              href="https://github.com/ioanalazea/Audio-Data-Recording-for-Parkinson-s-Disease/blob/main/README.md"
+            >
               Progressive Web App
             </a>{" "}
             for audio files recording to be used for the detection and proposed
-            a machine learning model.<br /><br />
+            a machine learning model.
+            <br />
+            <br />
             <br />
           </li>
           <li>
@@ -291,45 +360,70 @@ function Work() {
             goals and the other, the user can write each day in a journal,
             getting reminders everyday. Journaling has been proven to help with
             one's mental health.
-            <a href="https://github.com/ralucacigmaian/Mobile_App_For_Managing_Your_Personal_Plans">
+            <a
+              style={{ fontWeight: "700", color: "#4e8f84" }}
+              href="https://github.com/ralucacigmaian/Mobile_App_For_Managing_Your_Personal_Plans"
+            >
               Github link
-            </a><br /><br />
+            </a>
+            <br />
+            <br />
             <br />
           </li>
           <li>
             <b>Spring Boot Car Rental</b>
             <br />
             This was an{" "}
-            <a href="https://github.com/Software-Design-JLS/Springboot_Car_Rental">
+            <a
+              style={{ fontWeight: "700", color: "#4e8f84" }}
+              href="https://github.com/Software-Design-JLS/Springboot_Car_Rental"
+            >
               assigment
             </a>{" "}
-            for the Software Design course in my exchange semester.<br /><br />
+            for the Software Design course in my exchange semester.
+            <br />
+            <br />
           </li>
           <li>
             <b>Java University Project</b>
             <br />
             The purpose of this{" "}
-            <a href=" https://github.com/fis2021/DentalHealthcareAssistant">
+            <a
+              style={{ fontWeight: "700", color: "#4e8f84" }}
+              href=" https://github.com/fis2021/DentalHealthcareAssistant"
+            >
               project{" "}
             </a>{" "}
             was to learn how to work in Agile teams, to use version control
-            systems and to practic object oriented concepts.<br/><br />
+            systems and to practic object oriented concepts.
+            <br />
+            <br />
           </li>
           <li>
             <b>Maze Game in Unity</b>
             <br />A{" "}
-            <a href="https://ioanalazea.itch.io/the-amazeing-game">
+            <a
+              style={{ fontWeight: "700", color: "#4e8f84" }}
+              href="https://ioanalazea.itch.io/the-amazeing-game"
+            >
               small game project{" "}
             </a>{" "}
-            I did for a University course.<br /><br />
+            I did for a University course.
+            <br />
+            <br />
           </li>
           <li>
             <b>PacMan Game in Unity</b>
             <br />A{" "}
-            <a href="https://github.com/ioanalazea/Pac-Man-Game">
+            <a
+              style={{ fontWeight: "700", color: "#4e8f84" }}
+              href="https://github.com/ioanalazea/Pac-Man-Game"
+            >
               small game project{" "}
             </a>{" "}
-            I did.<br /><br />
+            I did.
+            <br />
+            <br />
           </li>
           <li>
             <b>Traffic Sign Recognition on Raspberry Pi</b>

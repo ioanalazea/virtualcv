@@ -1,10 +1,21 @@
 .App {
-  width: 100%;
-  height: 100vh;
-  background-color: #c9deda;
-  font-family: Consolas;
+   width: 100%;  
+  height: 100vh; 
+
+  /* background-color: #c9deda;
+  font-family: Consolas; */
+  padding: 20px; 
 }
 
+body{
+     /* width: 100%;   */
+  /* height: 100vh;  */
+/* justify-content: center;
+display: flex; */
+  background-color: #c9deda;
+  font-family: Consolas;
+  /* padding: 20px; */
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -43,9 +54,9 @@
 
 .Box-personal-info{
   background-color:#E0DFE4;
-  min-height: 200px;
+  /* min-height: 200px;
   min-width: 200px;
-  width: 35%;
+  width: 35%; */
   align-self: center;
   border: 2px solid grey;
   border-radius: 5px;

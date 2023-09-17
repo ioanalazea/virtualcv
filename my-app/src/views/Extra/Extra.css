@@ -2,7 +2,7 @@
     background-color: #f1f1f1;
     background-image: url("../../assets/background.JPG");
     border-radius: 5px;
-    margin: 80px;
+    margin: 10%;
     margin-top: 40px;
     margin-bottom: 40px;
     font-family: "Oliver";
@@ -19,7 +19,7 @@ padding: 20px;
     background-color: #f1f1f1;
     background-image: url("../../assets/background2.png");
     border-radius: 5px;
-    margin: 80px;
+    margin: 10%;
     margin-top: 40px;
     margin-bottom: 40px;
     font-family: "Oliver";

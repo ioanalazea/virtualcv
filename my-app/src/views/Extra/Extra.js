@@ -140,7 +140,7 @@ function Extra() {
           I love making playlists according to moods, ideas, pictures etc.
           <br></br>
           Check out my{" "}
-          <a href="https://open.spotify.com/user/jwpmqjoy8c8jaagiq1q3tcz75?si=065596ed1d024c21">
+          <a  style={{fontWeight:"700", color:"#4e8f84"}} href="https://open.spotify.com/user/jwpmqjoy8c8jaagiq1q3tcz75?si=065596ed1d024c21">
             {" "}
             Spotify account
           </a>

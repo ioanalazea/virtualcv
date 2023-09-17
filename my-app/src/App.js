@@ -1,22 +1,20 @@
 import * as React from "react";
 import "./App.css";
 import "./fonts/Oliver-Regular.ttf";
-import ReactAudioPlayer from "react-audio-player";
 import AudioPlayer from "react-h5-audio-player";
 import "react-h5-audio-player/lib/styles.css";
 //Import components:
 import Box from "@mui/material/Box";
-import Grid from "@mui/material/Box";
+import Grid from '@mui/material/Grid';
 import Menu from "@mui/material/Menu";
 import MenuItem from "@mui/material/MenuItem";
-import { Typography } from "@mui/material";
+import { Tooltip, Typography } from "@mui/material";
 import MainContainer from "./components/MainContainer/MainContainer";
 import AboutMe from "./views/AboutMe/AboutMe";
 import Study from "./views/Study/Study";
 import Work from "./views/Work/Work";
 import Skills from "./views/Skills/Skills";
 import Extra from "./views/Extra/Extra";
-import Tooltip from "@mui/material/Tooltip";
 
 //Import icons:
 import CloseIcon from "@mui/icons-material/Close";
@@ -26,6 +24,7 @@ import EmailIcon from "@mui/icons-material/Email";
 import PhoneIcon from "@mui/icons-material/Phone";
 import profileImage from "../src/assets/profilepicture.jpg";
 import sound from "../src/assets/TrackforvirtualCV.mp3";
+import InfoOutlined from "@mui/icons-material/InfoOutlined";
 
 function App() {
   const [anchorEl, setAnchorEl] = React.useState(null);
@@ -39,8 +38,10 @@ function App() {
   };
 
   return (
-    <div className="App" style={{ justifyContent: "center", display: "flex" }}>
-      <Box className="Box-personal-info">
+    // <div className="App" style={{ justifyContent: "center", display: "flex", width: "fit-content" }}>
+      <Grid className="App" container direction={"row"} display={"flex"} spacing={1} > 
+    <Grid item container xs={12} md={4} >  
+    <Box className="Box-personal-info">
         <Grid container>
           <Grid
             item
@@ -57,7 +58,7 @@ function App() {
               item
               right={"0px"}
               position={"absolute"}
-              direction={"column"}
+              direction={"row"}
               display={"flex"}
             >
               <div className="dot">
@@ -79,13 +80,14 @@ function App() {
           </Grid>
           <Grid
             item
+            xs={12}
             className="Header-bottom-personal-info"
             aria-controls={open ? "basic-menu" : undefined}
             aria-haspopup="true"
             aria-expanded={open ? "true" : undefined}
             onClick={handleClick}
           >
-            <div style={{ marginLeft: "15px" }}>
+            <div style={{ marginLeft: "15px", marginTop: "10px" }}>
               <u>M</u>enu
             </div>
           </Grid>
@@ -166,7 +168,7 @@ function App() {
             </Grid>
           </Grid>
 
-          <Grid item container margin={"20px"}>
+          <Grid item container margin={"20px"} display={"flex"} flexDirection={"column"}>
             <Typography fontFamily={"Consolas"}>
               <b style={{ color: "rgba(78, 143, 132, 1)" }}>Date of birth:</b>{" "}
               20/07/2000
@@ -212,11 +214,17 @@ function App() {
                 marginTop: "19px",
               }}
             />
+            
+            <Tooltip title={"The song is composed by myself for the virtual CV."}>
+            <InfoOutlined style={{color:"#c0c0c0", marginTop:"10px"}}/>
+            </Tooltip>
           </Grid>
         </Grid>
       </Box>
+    </Grid>
 
-      {option === "about" && (
+    <Grid item container xs={12} md={8} >
+    {option === "about" && (
         <MainContainer
           title="About me.exe"
           children={<AboutMe></AboutMe>}
@@ -242,8 +250,13 @@ function App() {
       )}
       {option === "extra" && (
         <MainContainer title="Extra.exe" children={<Extra />}></MainContainer>
-      )}
-    </div>
+      )}    </Grid>
+
+      </Grid>
+      
+
+    
+    // </div>
   );
 }
 
