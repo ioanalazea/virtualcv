@@ -170,6 +170,7 @@ function Work() {
           </IconButton>
         </div>
       </Box>
+      
       <Box className="Work">
         <div className="Work-post">
           <b>Junior Analyst Programmer</b> <div>2021</div>
