@@ -3,6 +3,8 @@ import "./App.css";
 import "./fonts/Oliver-Regular.ttf";
 import AudioPlayer from "react-h5-audio-player";
 import "react-h5-audio-player/lib/styles.css";
+import { useNavigate } from "react-router-dom";
+
 //Import components:
 import Box from "@mui/material/Box";
 import Grid from '@mui/material/Grid';
@@ -36,6 +38,9 @@ function App() {
   const handleClose = () => {
     setAnchorEl(null);
   };
+
+  const navigate = useNavigate();
+
 
   return (
     // <div className="App" style={{ justifyContent: "center", display: "flex", width: "fit-content" }}>
@@ -151,6 +156,16 @@ function App() {
             >
               <Typography fontFamily={"Consolas"}>
                 <u>E</u>xtra
+              </Typography>
+            </MenuItem>
+            <MenuItem
+              onClick={() => {
+                navigate("/virtualcv/artgallery");
+                handleClose();
+              }}
+            >
+              <Typography fontFamily={"Consolas"}>
+                <u>A</u>rt Gallery
               </Typography>
             </MenuItem>
           </Menu>

@@ -3,13 +3,13 @@ import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 import App from './App';
 
 import ReactDOM from 'react-dom';
+import ArtGallery from './views/ArtGallery/ArtGallery';
 //import RouterMapping from './RouterMapping';
 const RouterMapping = () => (
   <Router>
    <Routes>
       <Route exact path="/virtualcv" element={<App />} />
-      {/* <Route path="expenses" element={<Expenses />} />
-      <Route path="invoices" element={<Invoices />} /> */}
+      <Route path="/virtualcv/artgallery" element={<ArtGallery />} />
     </Routes>
   </Router>
 );
