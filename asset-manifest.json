@@ -1,25 +1,41 @@
 {
   "files": {
-    "main.css": "/virtualcv/static/css/main.c2139444.css",
-    "main.js": "/virtualcv/static/js/main.df0bb02c.js",
+    "main.css": "/virtualcv/static/css/main.d80c2ad2.css",
+    "main.js": "/virtualcv/static/js/main.ef18edee.js",
+    "static/media/chatroomperf.png": "/virtualcv/static/media/chatroomperf.b18d448daf9204b7fdca.png",
     "static/media/TrackforvirtualCV.mp3": "/virtualcv/static/media/TrackforvirtualCV.888ea1e1b0fe85fa3039.mp3",
     "static/media/avatarvideoAi.mp4": "/virtualcv/static/media/avatarvideoAi.8cc7bd4b9f0017c9c698.mp4",
+    "static/media/designfigma.png": "/virtualcv/static/media/designfigma.9e7b2bfb4dddf518325d.png",
     "static/media/cinem.jpg": "/virtualcv/static/media/cinem.53aafbcc9f7d122b1088.jpg",
+    "static/media/pwaPDC.png": "/virtualcv/static/media/pwaPDC.7930701e28372905daa4.png",
     "static/media/glad.jpg": "/virtualcv/static/media/glad.59599321b3757fb88de2.jpg",
+    "static/media/pagechat2.png": "/virtualcv/static/media/pagechat2.4d71c8294a01979b4ae7.png",
+    "static/media/figma-design-mobile.png": "/virtualcv/static/media/figma-design-mobile.4dd742e27f4909978e4b.png",
+    "static/media/dailygoals.png": "/virtualcv/static/media/dailygoals.500aea98739b0fbfa608.png",
     "static/media/letter.jpg": "/virtualcv/static/media/letter.a5517d661081e55fd139.jpg",
+    "static/media/parf1.png": "/virtualcv/static/media/parf1.e3578d67c16ad6345b23.png",
+    "static/media/volunteering.jpg": "/virtualcv/static/media/volunteering.76f260e02dff5a7995d7.jpg",
+    "static/media/journaling.png": "/virtualcv/static/media/journaling.2484a57b397520834f31.png",
+    "static/media/essex.jpg": "/virtualcv/static/media/essex.50d8ad68e9d2644590a1.jpg",
     "static/media/profilepicture.jpg": "/virtualcv/static/media/profilepicture.8ef220c6cd7386d7cc40.jpg",
+    "static/media/login.png": "/virtualcv/static/media/login.f5ab7e2332cceaa365ae.png",
+    "static/media/chatbot2.png": "/virtualcv/static/media/chatbot2.6558479fa3882a9c1f1f.png",
     "static/media/me_graduation.jpg": "/virtualcv/static/media/me_graduation.794fbd94cbe81fb5e418.jpg",
+    "static/media/figmaDashboard.png": "/virtualcv/static/media/figmaDashboard.1ea5f97d196eefd0c9e8.png",
+    "static/media/addingGoal.png": "/virtualcv/static/media/addingGoal.20bbc051e19560ff9e7c.png",
+    "static/media/accuracy-features.png": "/virtualcv/static/media/accuracy-features.21b79d0ec6dc3bb8dacf.png",
     "static/media/Oliver-Regular.ttf": "/virtualcv/static/media/Oliver-Regular.01f638784569ede86f7c.ttf",
+    "static/media/accuracyModels.png": "/virtualcv/static/media/accuracyModels.efb4510bdbe03f5f9622.png",
     "static/media/accenturelogo.png": "/virtualcv/static/media/accenturelogo.6220f2888a6d949974e0.png",
     "static/media/paint.png": "/virtualcv/static/media/paint.d22420eadc9f9a012860.png",
     "static/media/background.JPG": "/virtualcv/static/media/background.48d16c9b20ccabd185c1.JPG",
     "static/media/paint2.JPG": "/virtualcv/static/media/paint2.b3b2b31b52a4288a1780.JPG",
     "index.html": "/virtualcv/index.html",
-    "main.c2139444.css.map": "/virtualcv/static/css/main.c2139444.css.map",
-    "main.df0bb02c.js.map": "/virtualcv/static/js/main.df0bb02c.js.map"
+    "main.d80c2ad2.css.map": "/virtualcv/static/css/main.d80c2ad2.css.map",
+    "main.ef18edee.js.map": "/virtualcv/static/js/main.ef18edee.js.map"
   },
   "entrypoints": [
-    "static/css/main.c2139444.css",
-    "static/js/main.df0bb02c.js"
+    "static/css/main.d80c2ad2.css",
+    "static/js/main.ef18edee.js"
   ]
 }
