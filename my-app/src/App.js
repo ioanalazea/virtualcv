@@ -17,6 +17,7 @@ import Study from "./views/Study/Study";
 import Work from "./views/Work/Work";
 import Skills from "./views/Skills/Skills";
 import Extra from "./views/Extra/Extra";
+import Projects from "./views/Projects/Projects";
 
 //Import icons:
 import CloseIcon from "@mui/icons-material/Close";
@@ -135,7 +136,17 @@ function App() {
               }}
             >
               <Typography fontFamily={"Consolas"}>
-                <u>W</u>ork and projects
+                <u>W</u>ork and volunteering
+              </Typography>
+            </MenuItem>
+                    <MenuItem
+              onClick={() => {
+                setOption("projects");
+                handleClose();
+              }}
+            >
+              <Typography fontFamily={"Consolas"}>
+                <u>P</u>rojects
               </Typography>
             </MenuItem>
             <MenuItem
@@ -217,7 +228,7 @@ function App() {
                 style={{ color: "rgba(78, 143, 132, 1)", marginRight: "5px" }}
               />
               <Typography style={{ fontFamily: "Consolas" }}>
-                (+40) 746425664
+                (+44) 07927748423
               </Typography>
             </Box>
             <AudioPlayer
@@ -253,8 +264,14 @@ function App() {
       )}
       {option === "work" && (
         <MainContainer
-          title="Work and projects.exe"
+          title="Work and volunteering.exe"
           children={<Work></Work>}
+        ></MainContainer>
+      )}
+            {option === "projects" && (
+        <MainContainer
+          title="Projects.exe"
+          children={<Projects></Projects>}
         ></MainContainer>
       )}
       {option === "passions" && (
@@ -268,9 +285,6 @@ function App() {
       )}    </Grid>
 
       </Grid>
-      
-
-    
     // </div>
   );
 }

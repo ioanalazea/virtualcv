@@ -17,6 +17,10 @@ import CodeIcon from "@mui/icons-material/Code";
 import PianoIcon from "@mui/icons-material/Piano";
 import MicIcon from "@mui/icons-material/Mic";
 import ColorLensIcon from "@mui/icons-material/ColorLens";
+import DataObjectIcon from '@mui/icons-material/DataObject';
+import TerminalIcon from '@mui/icons-material/Terminal';
+import AssistantIcon from '@mui/icons-material/Assistant';
+import DeveloperModeIcon from '@mui/icons-material/DeveloperMode';
 import ComputerIcon from "@mui/icons-material/Computer";
 import FavoriteTwoToneIcon from "@mui/icons-material/FavoriteTwoTone";
 import ModeCommentTwoToneIcon from "@mui/icons-material/ModeCommentTwoTone";
@@ -149,15 +153,93 @@ function Skills() {
           }}
         >
           <CodeIcon style={{ marginRight: "5px" }} />
-          <Typography style={{ fontFamily: "Consolas", fontWeight: 700 }}>
-            Computer Languages <br />
-            <li>C, C++</li>
-            <li>Java, JavaScript, HTML, CSS</li>
+          <Typography style={{ fontFamily: "Consolas", fontWeight: 500 }}>
+            <b>Computer Languages </b>
+            <br />
+            <li>C, C++, C#</li>
+            <li>Java, JavaScript, TypeScript, HTML, CSS</li>
             <li>Python</li>
             <li>Matlab</li>
+            <li>SQL</li>
+            <li>Bash, PowerShell</li>
           </Typography>
         </Box>
-        <Divider></Divider>
+        <Divider />
+        <Box
+          style={{
+            display: "flex",
+            flexDirection: "row",
+            margin: "5px",
+          }}
+        >
+          <DataObjectIcon style={{ marginRight: "5px" }} />
+          <Typography style={{ fontFamily: "Consolas", fontWeight: 500 }}>
+            <b>Frontend</b> <br />
+            <li>React, Typescript, HTML, CSS</li>
+            <li>Material UI, Tailwind CSS, UI Libraries</li>
+            <li>Designing prototypes and user flows in Figma</li>
+            <li>Component-based architecture</li>
+            <li>State management (Redux)</li>
+            <li>Computer Languages</li>
+          </Typography>
+        </Box>
+        <Divider />
+        <Box
+          style={{
+            display: "flex",
+            flexDirection: "row",
+            margin: "5px",
+          }}
+        >
+          <TerminalIcon style={{ marginRight: "5px" }} />
+          <Typography style={{ fontFamily: "Consolas", fontWeight: 500 }}>
+            <b>Backend</b> <br />
+            <li>.NET (C#), SQL</li>
+            <li>RESTful APIs</li>
+            <li>ORM frameworks (Entity frameworks)</li>
+            <li>Component-based architecture</li>
+            <li>Cloud services (e.g. Azure, AWS)</li>
+            <li>Authentication/Authorization (OAuth, JWT)</li>
+            <li>CI/CD pipelines</li>
+          </Typography>
+        </Box>
+        <Divider />
+        <Box
+          style={{
+            display: "flex",
+            flexDirection: "row",
+            margin: "5px",
+          }}
+        >
+          <AssistantIcon style={{ marginRight: "5px" }} />
+          <Typography style={{ fontFamily: "Consolas", fontWeight: 500 }}>
+            <b>AI & Data Science</b> <br />
+            <li>Data processing (NumPy, Pandas),</li>
+            <li>Visualization (Matplotlib, Seaborn)</li>
+            <li>NLP (spaCy, Hugging Face)</li>
+            <li>Large language models (GPT,Claude)</li>
+            <li>Prompt Engineering</li>
+            <li>Model tuning, deployment (Docker, Flask)</li>
+            <li>Interpretability (SHAP, LIME)</li>
+          </Typography>
+        </Box>
+        <Divider />
+        <Box
+          style={{
+            display: "flex",
+            flexDirection: "row",
+            margin: "5px",
+          }}
+        >
+          <DeveloperModeIcon style={{ marginRight: "5px" }} />
+          <Typography style={{ fontFamily: "Consolas", fontWeight: 500 }}>
+            <b>Development Tools & Workflow</b> <br />
+            <li>Azure DevOps, Jira</li>
+            <li>Flask, Streamlit, and FastAPI</li>
+            <li> Git, GitHub</li>
+          </Typography>
+        </Box>
+        <Divider />
         <Box
           style={{
             display: "flex",
@@ -166,12 +248,15 @@ function Skills() {
           }}
         >
           <ComputerIcon style={{ marginRight: "5px" }} />
-          <Typography style={{ fontFamily: "Consolas", fontWeight: 700 }}>
-            Digital skills <br></br>Microsoft Word / Microsoft Excel / Microsoft
-            Powerpoint / Social Media / Adobe Lightroom, Premiere Pro{" "}
+          <Typography style={{ fontFamily: "Consolas", fontWeight: 500 }}>
+            <b>Digital skills</b> <br></br>Microsoft Word / Microsoft Excel /
+            Microsoft Powerpoint / Social Media / Adobe Lightroom, Premiere Pro
+            / Project management / Agile/Scrum / Code review / CI/CD / Security
+            awareness / Performance optimization / Documentation / Test-Drive
+            Development / Team collaboration
           </Typography>
         </Box>
-        <Divider></Divider>
+        <Divider />
 
         <div
           style={{
@@ -206,7 +291,9 @@ function Skills() {
           <MicIcon style={{ marginRight: "5px" }} />
           <Typography style={{ fontFamily: "Consolas" }}>
             Singing <br /> I took singing lessons at the Popular Art School in
-            Deva.{" "}
+            Deva, Romania. Also, while studying at University of Essex, I was
+            part of a band, playing at different events organized by the Music
+            Society.
           </Typography>
         </Box>
         <Divider></Divider>
@@ -233,7 +320,10 @@ function Skills() {
           }}
         >
           <ColorLensIcon style={{ marginRight: "5px" }} />
-          <Typography style={{ fontFamily: "Consolas" }}>Painting </Typography>
+          <Typography style={{ fontFamily: "Consolas" }}>
+            Painting <br></br> Enjoy expressing creativity through painting,
+            using it as a way to explore color, form, and emotion.
+          </Typography>
         </Box>
         <div
           style={{
@@ -282,7 +372,10 @@ function Skills() {
         >
           <LocalAirportIcon style={{ marginRight: "5px" }} />
           <Typography style={{ fontFamily: "Consolas" }}>
-            Travelling <br />{" "}
+            Travelling <br /> I enjoy exploring new cultures, environments, and
+            perspectives because it helps me stay curious, adaptable, and open
+            to diverse ideas, skills I bring to collaborative and innovative
+            work settings.
           </Typography>
         </Box>
         <Divider></Divider>
@@ -295,7 +388,10 @@ function Skills() {
         >
           <PhotoCameraIcon style={{ marginRight: "5px" }} />
           <Typography style={{ fontFamily: "Consolas" }}>
-            Photography <br />{" "}
+            Photography <br /> I am passionate about capturing moments through
+            film photography, with a focus on composition, light, and
+            storytelling because it encourages patience, creativity, and
+            attention to detail.
           </Typography>
         </Box>
         <Divider></Divider>

@@ -9,12 +9,82 @@ import Box from "@mui/material/Box";
 import LocationOnIcon from "@mui/icons-material/LocationOn";
 import SchoolIcon from "@mui/icons-material/School";
 import graduationImage from "../../assets/me_graduation.jpg";
+import essexImage from "../../assets/essex.jpg";
 import FavoriteTwoToneIcon from "@mui/icons-material/FavoriteTwoTone";
 import ModeCommentTwoToneIcon from "@mui/icons-material/ModeCommentTwoTone";
 import MoreHorizTwoToneIcon from "@mui/icons-material/MoreHorizTwoTone";
+
 function Study() {
   return (
     <Box justifyContent={"center"} display={"flex"} flexDirection={"column"}>
+      <Box className="Study">
+        <div className="Study-post">
+          <b>Master's Degree</b> <div>2024-current</div>
+        </div>
+        <Box
+          style={{
+            display: "flex",
+            flexDirection: "row",
+            margin: "5px",
+          }}
+        >
+          <LocationOnIcon style={{ marginRight: "5px" }} />
+          <Typography style={{ fontFamily: "Consolas" }}>
+            School of Computer Science and Computer Engineering, University of
+            Essex
+          </Typography>
+        </Box>
+        <Divider></Divider>
+        <Box
+          style={{
+            display: "flex",
+            flexDirection: "row",
+            margin: "5px",
+          }}
+        >
+          <SchoolIcon style={{ marginRight: "5px" }} />
+          <Typography style={{ fontFamily: "Consolas" }}>
+            Artificial Intelligence{" "}
+          </Typography>
+        </Box>
+        <Divider></Divider>
+        <Box width={"100%"} alignSelf={"center"} display={"flex"} justifyContent={"center"}>
+          <img className="Study-image" src={essexImage} />
+        </Box>
+
+        <Typography
+          fontFamily={"Consolas"}
+          style={{
+            border: "5px solid #c0c0c0",
+            margin: "10px",
+            padding: "5px",
+            borderRadius: "5px",
+            padding: "10px",
+          }}
+        >
+          Natural Languange Engineering, Intelligent Systems and Robotics,
+          Machine Learning, Data Science and Decision Making, Neural Networks
+          and Deep Learning, Professional Practice and Methodology,
+          Computational Models in Economics
+        </Typography>
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "flex-end",
+            marginRight: "10px",
+          }}
+        >
+          <IconButton>
+            <FavoriteTwoToneIcon />
+          </IconButton>
+          <IconButton>
+            <ModeCommentTwoToneIcon />
+          </IconButton>
+          <IconButton>
+            <MoreHorizTwoToneIcon />
+          </IconButton>
+        </div>
+      </Box>
       <Box className="Study">
         <div className="Study-post">
           <b>Bachelor's Degree</b> <div>2019-2023</div>
@@ -42,11 +112,11 @@ function Study() {
         >
           <SchoolIcon style={{ marginRight: "5px" }} />
           <Typography style={{ fontFamily: "Consolas" }}>
-            Information and Communication Technologies{" "}
+            Computer and Communication Technologies{" "}
           </Typography>
         </Box>
         <Divider></Divider>
-        <Box width={"100%"} alignSelf={"center"} display={"flex"}>
+        <Box width={"100%"} alignSelf={"center"} display={"flex"} justifyContent={"center"}>
           <img className="Study-image" src={graduationImage} />
         </Box>
 
@@ -60,9 +130,11 @@ function Study() {
             padding: "10px",
           }}
         >
-          Data Structures and Algorithms, Calculus, Algebra, Object Oriented
-          Programming, Software Development, Computer Organization, Programming
-          Techniques
+          Computers Programming, Data Structures and Algorithms, Object Oriented
+          Programming, Computer Organization, Programming Techniques, Digital
+          Logic, Databases, Operation Systems, Web Programming, Expert systems,
+          Artificial Intelligence, Software Design, Embedded Systems, Data
+          Mining, Hardware/Software Codesign
         </Typography>
         <div
           style={{

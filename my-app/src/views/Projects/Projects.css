@@ -1,0 +1,26 @@
+.Projects {
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    margin: 10%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  
+  .Projects-post {
+    background: #4e8f84;
+    padding: 5px;
+    font-size: large;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #f1f1f1;
+  }
+  
+.Projects-image{
+    width: 50%;
+    height: 50%;
+    border-radius: 5px;
+    margin:20px;
+}

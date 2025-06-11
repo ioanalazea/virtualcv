@@ -7,20 +7,22 @@ import Box from "@mui/material/Box";
 
 //Import icons:
 import LocationOnIcon from "@mui/icons-material/LocationOn";
-import SchoolIcon from "@mui/icons-material/School";
 import WorkIcon from "@mui/icons-material/Work";
 import logoavaelgo from "../../assets/logoavaelgo.png";
 import logoacc from "../../assets/accenturelogo.png";
 import logoava from "../../assets/ava.png";
+import volunteering from "../../assets/volunteering.jpg";
+
 import FavoriteTwoToneIcon from "@mui/icons-material/FavoriteTwoTone";
 import ModeCommentTwoToneIcon from "@mui/icons-material/ModeCommentTwoTone";
 import MoreHorizTwoToneIcon from "@mui/icons-material/MoreHorizTwoTone";
+
 function Work() {
   return (
     <Box justifyContent={"center"} display={"flex"} flexDirection={"column"}>
       <Box className="Work">
         <div className="Work-post">
-          <b>Junior Software Developer</b> <div>2022-current</div>
+          <b>Software Developer</b> <div>2022-2024</div>
         </div>
         <Box
           style={{
@@ -66,22 +68,28 @@ function Work() {
           }}
         >
           <li>
-            Working on the user interface (UI) of web applications, with
-            technologies such as HTML, CSS, and JavaScript to create visually
-            appealing and user-friendly interfaces.
+            <b>Frontend Development</b>: Built and maintained responsive,
+            user-friendly interfaces for web applications with <b>React</b>
+            and <b>TypeScript</b>, with a strong focus on accessibility and
+            performance. Utilized <b>Material UI (MUI)</b> and other modern UI
+            libraries to create clean, intuitive, and visually consistent
+            components using HTML, CSS, and JavaScript.
           </li>
           <li>
-            Building the server-side logic and functionality of web
-            applications. (.NET)
+            <b>Backend Development</b>: Designed and implemented server-side
+            logic using <b>.NET</b>, developing robust APIs and business logic
+            to support web application functionality. Worked with <b>SQL</b>{" "}
+            databases for efficient data storage, retrieval, and management.
           </li>
           <li>
-            Using version control systems like Git to track changes to the
-            codebase, collaborate with team members, and manage code
-            repositories.
+            <b>Version Control</b>: Used <b>Azure DevOps</b> to manage codebase
+            changes, collaborate with team members, and maintain organized,
+            versioned repositories.
           </li>
           <li>
-            Working closely with designers, and other team members to ensure the
-            successful development and deployment of web applications.
+            <b>Team Collaboration</b>: Partnered with designers and
+            cross-functional teams to deliver cohesive and user-centered web
+            applications from development to deployment.
           </li>
         </Typography>
         <div
@@ -104,7 +112,7 @@ function Work() {
       </Box>
       <Box className="Work">
         <div className="Work-post">
-          <b>Intern</b> <div>2023-current</div>
+          <b>Freelance software developer</b> <div>2023-current</div>
         </div>
         <Box
           style={{
@@ -147,10 +155,26 @@ function Work() {
             padding: "10px",
           }}
         >
-          Design and architect AI solutions that address specific business
-          problems or opportunities. This may include building custom machine
-          learning models, leveraging pre-existing AI technologies, or
-          recommending AI tools and platforms.
+          <li>
+            <b>Frontend & UX Design</b>: Designed and implemented frontend
+            interfaces for AI tools using <b>Figma</b> for UI/UX prototyping,
+            and built responsive UIs with <b>React</b> and <b>TypeScript</b> to
+            ensure smooth user interaction with AI systems.
+          </li>
+          <li>
+            <b>AI Solution Architecture</b>: Designed and developed AI-driven
+            solutions tailored to business needs, including{" "}
+            <b>
+              custom machine learning models, prompt engineering for large
+              language models, and natural language processing pipelines.
+            </b>
+          </li>
+          <li>
+            <b>ML Engineering & Optimization</b>: Applied{" "}
+            <b>feature engineering, hyperparameter tuning,</b> and used
+            libraries such as TensorFlow, PyTorch, Scikit-learn, and Keras to
+            build and optimize machine learning models.
+          </li>
         </Typography>
         <div
           style={{
@@ -170,10 +194,11 @@ function Work() {
           </IconButton>
         </div>
       </Box>
-      
+
       <Box className="Work">
         <div className="Work-post">
-          <b>Junior Analyst Programmer</b> <div>2021</div>
+          <b>Junior Analyst Programmer Summer Intern</b>{" "}
+          <div>2021 (3 months)</div>
         </div>
         <Box
           style={{
@@ -226,17 +251,23 @@ function Work() {
         >
           <li>
             {" "}
-            Writing, coding, testing, and analyzing software programs and
-            applications. <br />
-          </li>
-          <li>
-            Research, design, document, and modify software specifications
-            throughout the production life cycle.
+            <b>Software Development</b>: Wrote, coded, tested, and analyzed
+            software applications in <b>C++</b>, contributing to the full
+            development lifecycle from requirements gathering to deployment.{" "}
             <br />
           </li>
           <li>
-            Some of the tools we used: drawIO for software diagrams, gcc, bake,
-            git, C++ as programming language, googletest.
+            <b>Software Design & Documentation</b>: Researched, designed, and
+            maintained <b>software specifications</b>, updating documentation
+            throughout the production lifecycle to ensure clarity and
+            consistency.
+            <br />
+          </li>
+          <li>
+            <b>Tooling & Workflow</b>: Utilized tools such as <b>DrawIO</b> for
+            system architecture diagrams, <b>gcc</b> and <b>bake</b> for
+            compiling and building code, and <b>Git</b> for version control and
+            team collaboration.
           </li>
         </Typography>
         <div
@@ -285,11 +316,12 @@ function Work() {
           >
             <u>Cinema Victoria (Timișoara) </u> <br />
           </Typography>
-          I started working as a volunteer at a Timișoara independent film
-          theater in 2023. My duties included helping with everything that was
-          required, like scanning tickets, promoting the cinema, planning
-          various events, etc.
-          <br />
+          In 2023, I began volunteering at an independent film theater in
+          Timișoara. I took on diverse responsibilities, including ticket
+          scanning, promoting cinema events, assisting with event planning, and
+          providing general support to ensure smooth operations and an
+          exceptional audience experience.
+          <br /> <br />
           <Typography
             style={{
               fontFamily: "Consolas",
@@ -298,138 +330,31 @@ function Work() {
               color: "#4e8f84",
             }}
           >
-            <u>Summer Well Festival 2023 (Bucharest) </u> <br />
+            <u>VTeam Essex Student Union </u> <br />
           </Typography>
-          During the Summer Well music event in 2023, I volunteered. Since I was
-          on the "Moving" crew, I had to assist with all requirements.
-        </Typography>
-        <div
-          style={{
-            display: "flex",
-            justifyContent: "flex-end",
-            marginRight: "10px",
-          }}
-        >
-          <IconButton>
-            <FavoriteTwoToneIcon />
-          </IconButton>
-          <IconButton>
-            <ModeCommentTwoToneIcon />
-          </IconButton>
-          <IconButton>
-            <MoreHorizTwoToneIcon />
-          </IconButton>
-        </div>
-      </Box>
-
-      <Box className="Work">
-        <div className="Work-post">
-          <b>Personal projects</b>
-        </div>
-
-        <Divider></Divider>
-        <Typography
-          fontFamily={"Consolas"}
-          style={{
-            border: "5px solid #c0c0c0",
-            margin: "10px",
-            padding: "5px",
-            borderRadius: "5px",
-            padding: "10px",
-          }}
-        >
           <li>
-            {" "}
-            <b>Bachelor project </b> <br />
-            Platform for Parkinson's disease detection using audio. Developed a{" "}
-            <a
-              style={{ fontWeight: "700", color: "#4e8f84" }}
-              href="https://github.com/ioanalazea/Audio-Data-Recording-for-Parkinson-s-Disease/blob/main/README.md"
-            >
-              Progressive Web App
-            </a>{" "}
-            for audio files recording to be used for the detection and proposed
-            a machine learning model.
-            <br />
-            <br />
-            <br />
+            <b>Art Club Volunteer</b>,
+            <i> Woodlands Daycare Center, Colchester, UK</i> - Organizing and
+            leading creative art activities for adults, fostering their artistic
+            expression and creativity while creating a fun and supportive
+            environment.
           </li>
           <li>
-            <b>Mobile App for managing your personal plans</b> <br />
-            The idea behind this app was inspired by my interest in mental
-            health. It has two main use cases: one for the user to track their
-            goals and the other, the user can write each day in a journal,
-            getting reminders everyday. Journaling has been proven to help with
-            one's mental health.
-            <a
-              style={{ fontWeight: "700", color: "#4e8f84" }}
-              href="https://github.com/ralucacigmaian/Mobile_App_For_Managing_Your_Personal_Plans"
-            >
-              Github link
-            </a>
-            <br />
-            <br />
-            <br />
+            <b>Coding Club Mentor</b>,<i> Colchester, UK</i> - Teaching basic
+            programming concepts to young children through interactive and
+            engaging activities, inspiring their interest in technology and
+            developing foundational coding skills.
           </li>
-          <li>
-            <b>Spring Boot Car Rental</b>
-            <br />
-            This was an{" "}
-            <a
-              style={{ fontWeight: "700", color: "#4e8f84" }}
-              href="https://github.com/Software-Design-JLS/Springboot_Car_Rental"
-            >
-              assigment
-            </a>{" "}
-            for the Software Design course in my exchange semester.
-            <br />
-            <br />
-          </li>
-          <li>
-            <b>Java University Project</b>
-            <br />
-            The purpose of this{" "}
-            <a
-              style={{ fontWeight: "700", color: "#4e8f84" }}
-              href=" https://github.com/fis2021/DentalHealthcareAssistant"
-            >
-              project{" "}
-            </a>{" "}
-            was to learn how to work in Agile teams, to use version control
-            systems and to practic object oriented concepts.
-            <br />
-            <br />
-          </li>
-          <li>
-            <b>Maze Game in Unity</b>
-            <br />A{" "}
-            <a
-              style={{ fontWeight: "700", color: "#4e8f84" }}
-              href="https://ioanalazea.itch.io/the-amazeing-game"
-            >
-              small game project{" "}
-            </a>{" "}
-            I did for a University course.
-            <br />
-            <br />
-          </li>
-          <li>
-            <b>PacMan Game in Unity</b>
-            <br />A{" "}
-            <a
-              style={{ fontWeight: "700", color: "#4e8f84" }}
-              href="https://github.com/ioanalazea/Pac-Man-Game"
-            >
-              small game project{" "}
-            </a>{" "}
-            I did.
-            <br />
-            <br />
-          </li>
-          <li>
-            <b>Traffic Sign Recognition on Raspberry Pi</b>
-            <br />
-          </li>
+          <br />
+          <i>Nominated for Regular Volunteer of the Year</i>
+          <Box
+            width={"100%"}
+            alignSelf={"center"}
+            display={"flex"}
+            justifyContent={"center"}
+          >
+            <img className="Study-image" src={volunteering} />
+          </Box>
         </Typography>
         <div
           style={{

@@ -5,29 +5,32 @@ import "./AboutMe.css";
 //Import components:
 import Box from "@mui/material/Box";
 import InfoOutlinedIcon from "@mui/icons-material/InfoOutlined";
+
 //Import icons:
 import video from "../../assets/avatarvideoAi.mp4";
 
 function AboutMe() {
-  const getAge = () => {
-    const date = new Date();
-    let age = 0;
+  
+const getAge = () => {
+  const now = new Date();
+  const birthDate = new Date("2000-07-20");
 
-    if (date.getMonth() > 7) age = date.getFullYear() - 2000;
-    else if (date.getMonth <= 6) age = date.getFullYear() - 2000 - 1;
-    else if (date.getMonth() === 7) {
-      if (date.getDay() < 20) age = date.getFullYear() - 2000 - 1;
-      else age = date.getFullYear() - 2000;
-    }
+  // Calculate age
+  let age = now.getFullYear() - birthDate.getFullYear();
+  const hasHadBirthdayThisYear =
+    now.getMonth() > birthDate.getMonth() ||
+    (now.getMonth() === birthDate.getMonth() && now.getDate() >= birthDate.getDate());
 
-    let date_1 = new Date("07/20/2000");
-    let date_2 = new Date();
+  if (!hasHadBirthdayThisYear) {
+    age--;
+  }
 
-    let difference = date_2.getTime() - date_1.getTime();
-    let TotalDays = Math.ceil(difference / (1000 * 3600 * 24));
+  // Calculate days since birth
+  const difference = now.getTime() - birthDate.getTime();
+  const totalDays = Math.ceil(difference / (1000 * 3600 * 24));
 
-    return { age: age, days: TotalDays };
-  };
+  return { age, days: totalDays };
+};
 
   return (
     <Box justifyContent={"center"} display={"flex"} flexDirection={"column"}>
